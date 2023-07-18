@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -15,12 +16,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
-    color-scheme: dark;
+    color-scheme: white;
   }
-  body {
-    color: white;
-    background: black;
-  }
+ 
+}
+.page-container{
+  padding: 0 10px;
 }

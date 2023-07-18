@@ -1,0 +1,26 @@
+.header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    .header-left{
+        gap: 76px;
+    }
+    &-search-input{
+        width: 600px;
+        padding: 10px 22px;
+        &:active{
+            box-shadow: 0 0 0 3px rgba(5, 145, 255, 0.1),
+            0 0 0 2px rgba(5, 145, 255, 0.1);
+        }
+        .ant-input-clear-icon{
+
+            font-size: 17px;
+        }
+    }
+    &-select-category{
+        width: 150px;
+        
+    }
+}
