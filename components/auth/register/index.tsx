@@ -27,7 +27,7 @@ const Register = () => {
         data: data,
       });
       localStorage.setItem("accessToken", res.data.accessToken);      
-      router.push("/profile");
+      router.push("/home");
       message.success(res?.data?.msg || "Logged");
       setUser(res.data)
     } catch (error: any) {

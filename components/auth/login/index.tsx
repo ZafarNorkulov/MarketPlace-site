@@ -27,7 +27,7 @@ const Login = () => {
         localStorage.setItem("accessToken", res.data.access_token);
         localStorage.setItem("refreshToken", res.data.refresh_token);
         dispatch(setUserInfo(res?.data));
-        router.push("/profile");
+        router.push("/home");
       } catch (error:any) {
           message.error(error?.response?.data?.detail)
       }
