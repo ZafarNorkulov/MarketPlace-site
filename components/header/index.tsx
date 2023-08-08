@@ -26,7 +26,7 @@ const Header = () => {
         <li className="header-left gap-5">
           <Link href={"/"}>
 
-          <h1 className="text-[#068FFF] lg:block hidden text-2xl ">
+          <h1 className=" lg:block hidden text-2xl ">
             Market Place
           </h1>
           </Link>
