@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
 @import "./globals.scss";
+@import "./mixins.scss";
 
-@import "../components/Header/styles.scss"
+@import "../components/Header/styles.scss";
+@import "../components/hero/styles.scss";
+@import "../components/categoryList/styles.scss";
+@import "../components/product/styles.scss";

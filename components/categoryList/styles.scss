@@ -1,0 +1,15 @@
+.categories{
+   
+  .swiper-button-next, .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 0 5px #bbb;
+    border-radius: 50%;
+    &::after{
+        font-size: 18px;
+    color: #121;
+    }
+   
+  }
+}

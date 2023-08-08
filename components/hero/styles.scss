@@ -1,0 +1,22 @@
+.hero{
+    .slick-dots {
+        li {
+          height: 5px;
+          background: #bdbbbb !important;
+          border-radius: 5px !important;
+        }
+        button{
+            background: transparent;
+            opacity: 0!important;
+        }
+        .slick-active {
+          width: 32px !important;
+          background: #068FFF!important;
+          button {
+            background: #068FFF !important;
+            height: 5px !important;
+            border-radius: 5px;
+          }
+        }
+      }  
+}

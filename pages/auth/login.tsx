@@ -1,22 +1,15 @@
-import dynamic from "next/dynamic";
-import Head from "next/head";
 import React from "react";
 import NoneLayout from "../../layouts/noneLayout";
-
-
-const Login = dynamic(() => import('../../components/auth/login'))
-const SignIn = () => {
+import LoginPage from "../../components/auth/login";
+const Login = () => {
   return (
     <>
-      <Head>
-        <title>MarketPlace Login</title>
-        <meta name="description" content={"Market sotuv platformasi"} />
-      </Head>
-      <Login />
+      <LoginPage />
+     
     </>
   );
 };
 
-export default SignIn;
+export default Login;
 
-SignIn.layout= NoneLayout
+Login.layout = NoneLayout;

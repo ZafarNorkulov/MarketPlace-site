@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "redux/reducers/langReducer.tsx", "redux/store/index.jsx", "components/auth/register/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "redux/reducers/langReducer.tsx", "redux/store/index.jsx", "components/auth/register/index.tsx", "pages/korzina", "components/auth/login/index.tsx"],
   "exclude": ["node_modules"]
 }
