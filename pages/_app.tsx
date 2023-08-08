@@ -1,5 +1,5 @@
 import { Provider } from "react-redux";
-import "../styles/main.scss";
+import "../styles/main.scss"
 import store from "../redux/store/index";
 import { MainContext } from "../context/context";
 import { useEffect, useState } from "react";
